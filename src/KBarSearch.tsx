@@ -52,7 +52,7 @@ export function KBarSearch(
       aria-expanded={showing}
       aria-controls={KBAR_LISTBOX}
       aria-activedescendant={getListboxItemId(activeIndex)}
-      value={search}
+      defaultValue={search}
       placeholder={placeholder}
       onChange={(event) => {
         props.onChange?.(event);
